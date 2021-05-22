@@ -21,10 +21,20 @@ This repository should also include robust examples of different usecases for th
 - Font system
 - Theme rules: spacings, colors, shadows, borders
 - Card
+  - Should be an article element
+  - Customisable: backgroundColor, border, shadow, padding, children
+  - Optimisations: shadow to be image based for increased rendering speeds for large amounts of cards.
 - Feed
 - Author
+  - Should contain an avatar, a username and a date.
+  - Customisation: sizings, fonts, colors and orientation
+- Verified
+  - Should use em sizing so that it sizes correctly with the text adjacent to it.
+  - Customisable: icon used, color
 - Collaborators
 - Date published (time ago)
+  - Should use callbacks to update in real time (e.g. now, 1s, 30s, 1m, etc)
+  - Customisable: Time ago format, fonts, color
 - Like
 - Comments
 - Share
