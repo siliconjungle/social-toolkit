@@ -21,6 +21,7 @@ This repository should also include robust examples of different usecases for th
 - Card
 - Feed
 - Author
+- Collaborators
 - Date published (time ago)
 - Like
 - Comments
