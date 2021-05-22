@@ -50,3 +50,4 @@ This repository should also include robust examples of different usecases for th
 - Instagram images
 - Tip Jar
 - Meetup plugin (integration into events etc)
+- Modal
