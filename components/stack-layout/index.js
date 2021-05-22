@@ -17,7 +17,7 @@ const Container = styled.div`
   }}
 `
 
-const Stack = ({ children, spacing }) => {
+const StackLayout= ({ children, spacing }) => {
   return (
     <Container spacing={spacing}>
       {children}
@@ -25,4 +25,4 @@ const Stack = ({ children, spacing }) => {
   )
 }
 
-export default Stack
+export default StackLayout
