@@ -18,6 +18,9 @@ This repository should also include robust examples of different usecases for th
 
 ## Core feature priorities
 - Layout system (using every layout) https://every-layout.dev/
+  - Stack
+  - Box
+  - Center
 - Font system
 - Theme rules: spacings, colors, shadows, borders
 - Card
