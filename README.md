@@ -32,8 +32,9 @@ This repository should also include robust examples of different usecases for th
   - Should use em sizing so that it sizes correctly with the text adjacent to it.
   - Customisable: icon used, color
 - Collaborators
-- Date published (time ago)
+- Date published (time ago) https://www.npmjs.com/package/javascript-time-ago
   - Should use callbacks to update in real time (e.g. now, 1s, 30s, 1m, etc)
+  - Should take in unix timestamp
   - Customisable: Time ago format, fonts, color
 - Like
 - Comments
