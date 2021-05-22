@@ -9,15 +9,15 @@ e.g. Spotify (collaborative lists, favouriting, following people, adding friends
 This repository should also include robust examples of different usecases for the components.
 
 ## Technology Stack
-- React
-- Next JS
-- Storybook
-- Jest
-- Styled Components
-- React skeleton loading
+- React https://reactjs.org/
+- Next JS https://nextjs.org/
+- Storybook https://storybook.js.org/
+- Jest https://jestjs.io/
+- Styled Components https://styled-components.com/
+- React loading skeleton https://www.npmjs.com/package/react-loading-skeleton
 
 ## Core feature priorities
-- Layout system (using every layout)
+- Layout system (using every layout) https://every-layout.dev/
 - Card
 - Feed
 - Author
