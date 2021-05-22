@@ -37,7 +37,7 @@ This repository should also include robust examples of different usecases for th
 - Menu buttons
 - Menu items
 - Read more
-- Post editor
+- Post editor https://draftjs.org/
 - Image upload plugin
 - Featured link plugin
 - Twitter like poll plugin
