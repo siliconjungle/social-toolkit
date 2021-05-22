@@ -17,6 +17,7 @@ This repository should also include robust examples of different usecases for th
 - React skeleton loading
 
 ## Core feature priorities
+- Layout system (using every layout)
 - Card
 - Feed
 - Author
