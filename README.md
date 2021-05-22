@@ -47,3 +47,4 @@ This repository should also include robust examples of different usecases for th
 - Twitter Feed
 - Instagram images
 - Tip Jar
+- Meetup plugin (integration into events etc)
