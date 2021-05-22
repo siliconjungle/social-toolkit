@@ -40,15 +40,15 @@ const theme = {
     brPill: '9999px',
   },
   shadow: {
-    shadow1: '0px 0px 4px 2px rgba( 0, 0, 0, 0.2 )',
-    shadow2: '0px 0px 8px 2px rgba( 0, 0, 0, 0.2 )',
+    s1: '0px 0px 4px 2px rgba( 0, 0, 0, 0.2 )',
+    s2: '0px 0px 8px 2px rgba( 0, 0, 0, 0.2 )',
     shadow3: '2px 2px 4px 2px rgba( 0, 0, 0, 0.2 )',
     shadow4: '2px 2px 8px 0px rgba( 0, 0, 0, 0.2 )',
     shadow5: '4px 4px 8px 0px rgba( 0, 0, 0, 0.2 )',
   },
   color: {
     primary: '#4267B2',
-    grey: '#898F9C',
+    grey: '#eeeff3',
     white: '#ffffff',
     black: '#000000',
   },

@@ -1,15 +1,17 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import CenterLayout from '../components/center-layout'
 import StackLayout from '../components/stack-layout'
-import Card from '../components/card'
+import BoxLayout from '../components/box-layout'
+import FeaturedImage from '../components/featured-image'
 import theme from '../config/theme'
 
 const cards = [
-  { title: 'Card1' },
-  { title: 'Card2' },
-  { title: 'Card3' },
-  { title: 'Card4' },
+  { siteName: 'siliconjungle.io', title: 'Social platforms and analysis tools', description: 'Focusing on fostering healthy relationships and communities', src: '/danger-of-likes.png', href: 'https://www.siliconjungle.io' },
+  { siteName: 'siliconjungle.io', title: 'Social platforms and analysis tools', description: 'Focusing on fostering healthy relationships and communities', src: '/danger-of-likes.png', href: 'https://www.siliconjungle.io' },
+  { siteName: 'siliconjungle.io', title: 'Social platforms and analysis tools', description: 'Focusing on fostering healthy relationships and communities', src: '/danger-of-likes.png', href: 'https://www.siliconjungle.io' },
+  { siteName: 'siliconjungle.io', title: 'Social platforms and analysis tools', description: 'Focusing on fostering healthy relationships and communities', src: '/danger-of-likes.png', href: 'https://www.siliconjungle.io' },
 ]
 
 export default function Home() {
@@ -22,10 +24,29 @@ export default function Home() {
       </Head>
       <CenterLayout>
         <StackLayout spacing={theme.spacing.m}>
-          {cards.map(({ title }, i) => (
-            <Card hasPadding hasShadow key={i}>
-              {title}
-            </Card>
+          {cards.map(({ siteName, title, description, src, href }, i) => (
+            <BoxLayout hasPadding hasShadow key={i}>
+              <Link href={href}>
+                <a target="_blank">
+                  <BoxLayout backgroundColor={theme.color.grey}>
+                    <FeaturedImage src={src} alt={title} />
+                    <BoxLayout hasPadding>
+                      <StackLayout>
+                        <BoxLayout>
+                          <span>{siteName}</span>
+                        </BoxLayout>
+                        <BoxLayout>
+                          <span>{title}</span>
+                        </BoxLayout>
+                        <BoxLayout>
+                          <span>{description}</span>
+                        </BoxLayout>
+                      </StackLayout>
+                    </BoxLayout>
+                  </BoxLayout>
+                </a>
+              </Link>
+            </BoxLayout>
           ))}
         </StackLayout>
       </CenterLayout>
