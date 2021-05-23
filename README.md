@@ -28,6 +28,8 @@ This repository should also include robust examples of different usecases for th
   - Customisable: backgroundColor, border, shadow, padding, children
   - Optimisations: shadow to be image based for increased rendering speeds for large amounts of cards.
 - Feed
+  - https://developers.google.com/search/blog/2014/02/infinite-scroll-search-friendly (Most relevant for sites not behind a login wall)
+  - http://scrollsample.appspot.com (Example infinite scroll)
 - Author
   - Should contain an avatar, a username and a date.
   - Customisation: sizings, fonts, colors and orientation
