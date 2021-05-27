@@ -67,3 +67,5 @@ This repository should also include robust examples of different usecases for th
 - Tip Jar
 - Meetup plugin (integration into events etc)
 - Modal
+- Chip
+  - https://codepen.io/bhv/pen/vRmRZR
